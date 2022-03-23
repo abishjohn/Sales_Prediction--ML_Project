@@ -162,7 +162,7 @@ db.students.aggregate([
         }
     }
     ,
-        { $out: { db: "school", coll: "all_pass" } }
+        { $out: { db: "school", coll: "all_fail" } }
 ])
 
 
